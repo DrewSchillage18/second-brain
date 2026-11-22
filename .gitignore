@@ -1,0 +1,8 @@
+# Obsidian files that change every time you click around
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
+# Claude app bookkeeping
+.claude/.cc-writes
+# System junk
+.DS_Store
