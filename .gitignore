@@ -1,6 +1,6 @@
-# Obsidian files that change every time you click around
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
+# Obsidian's settings stay on this Mac only. GitHub doesn't keep them, so the iPhone's
+# own settings can't clash with them when it downloads the vault.
+.obsidian/
 .trash/
 # Claude app bookkeeping
 .claude/.cc-writes

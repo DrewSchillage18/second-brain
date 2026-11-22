@@ -15,7 +15,7 @@ The manual for this vault: what each part does, where it lives, and how to chang
   - Say "checkpoint" before leaving a chat.
   - Use a new chat for new work.
 - **Weekly:** skim each Weekly Review in Inbox.
-- **Every 90 days:** renew the GitHub token.
+- **Every 90 days:** renew both GitHub tokens: the Mac's (for backups) and the iPhone's read-only one.
 - **When you start work in a new folder:** add it to the wrap-up.
 - **Never:** turn on Obsidian Sync for this vault.
 
@@ -151,7 +151,7 @@ To use one yourself, create today's note with the calendar icon in the left ribb
 - **Sync** (a core plugin) is Obsidian's paid sync service. Not needed: GitHub is the backup. Never run two sync systems on the same vault.
 - **Bookmarks** (the bookmark icon at the top of the sidebar) hold Vault Index and Active Priorities. Right-click any note → Bookmark to add one.
 
-**GitHub:** github.com/DrewSchillage18/second-brain (private). "Commits" lists every saved version; a note's **History** shows how that note changed.
+**GitHub:** github.com/DrewSchillage18/second-brain (private). It shows every note as of the last backup. "Commits" lists every saved version; a note's **History** shows how that note changed. Obsidian's own settings folder (`.obsidian`) is not on GitHub; it stays on the Mac only. The settings themselves are listed in the table above.
 
 **Undo, from quickest to deepest:**
 1. **Recent edit (about the last week):** Command + P → "Open local history" (the File recovery core plugin), then pick an older version.
@@ -159,6 +159,15 @@ To use one yourself, create today's note with the calendar icon in the left ribb
 3. **Older version or deleted note:** ask Claude to find it in the GitHub history. It gives me the exact command to run, since it can't change the `.git` folder itself.
 
 Deleting a note in Obsidian sends it to the Mac's Trash. Archiving is still the better habit.
+
+## 9. The vault on my iPhone
+The iPhone has a **read-only copy** of the vault in the Obsidian app, with Files and Graph View.
+- **How it updates:** a community add-on called **Git** downloads the latest version from GitHub when Obsidian opens on the phone, and every 10 minutes while it's open. The phone is about an hour behind the Mac at most, because the Mac uploads hourly.
+- **Read, don't edit.** The phone never uploads; its token is read-only, and the add-on's "Disable push" is on. An edit made on the phone stays only on the phone and can block later downloads. If downloads stop working, ask Claude.
+- **Separate settings.** The phone keeps its own Obsidian settings in `.obsidian-mobile` (Settings → Files and links → Override config folder). That's why the Mac's settings aren't on GitHub: the two would clash.
+- **Phone token:** a fine-grained GitHub token named "iPhone Obsidian read-only" that can only read the second-brain repository. It expires after 90 days. Make a new one the same way (GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens; Only select repositories → second-brain; Contents → Read-only) and paste it in the phone's Settings → Git → Authentication.
+- **Graph View on the phone:** ≡ menu → Command palette → "Open graph view". Add it to the toolbar under Settings → Mobile → Manage toolbar options.
+- **Add-on settings on the phone (Settings → Git):** Pull on startup on, Auto pull interval 10, Auto commit-and-sync interval 0, Disable push on.
 
 ---
 
@@ -191,3 +200,4 @@ Deleting a note in Obsidian sends it to the Mac's Trash. Archiving is still the 
 | Test the wrap-up or tidy-up | Claude app → Scheduled → the task → Run now |
 | Get back an old version of a note | Command + P → "Open local history", or ask Claude to find it on GitHub |
 | Retire a note | Move it to [[Archive]] (Claude updates the indexes) |
+| Get the newest notes on my iPhone | Open Obsidian on the phone, or Command palette → "Git: Pull" |
