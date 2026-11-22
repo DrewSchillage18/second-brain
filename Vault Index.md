@@ -2,6 +2,8 @@
 
 The map of this vault. Claude reads this note at the start of every session instead of reading the whole vault, then opens other notes only when a task needs them.
 
+New to this vault, or need a reminder how it works? Read [[How This Vault Works]].
+
 **How to find things**
 1. Pick the folder below that fits.
 2. Read that folder's index note (it has the same name as the folder).

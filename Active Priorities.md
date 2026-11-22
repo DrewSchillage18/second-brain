@@ -13,8 +13,10 @@ The starting point for all open work. Each open item is written down in exactly 
 - **[[Taskflow]]:** open items are in [[Taskflow - Current Brief]] under "What still needs work" and "Next milestone".
 
 ## Open
-_Nothing open outside project briefs._
+- [ ] **Vault:** Quit and reopen Obsidian, then confirm today's daily note opens automatically.
 
 ## Completed
+- [x] **Vault:** Fixed the placeholder link in [[Job Template]]. (2026-11-22)
+- [x] **Vault:** Deleted the stray empty "Untitled" canvas and base files. (2026-11-22)
 - [x] **Vault:** Back up the vault off this computer. It's in the private GitHub repository `DrewSchillage18/second-brain`. (2026-11-22)
 - [x] **Vault:** Set up the vault layout and fill in "About me" in [[Vault Index]]. (2026-11-22)
