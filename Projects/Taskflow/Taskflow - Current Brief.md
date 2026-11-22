@@ -6,6 +6,7 @@ Use Taskflow as my day-to-day task manager. It has replaced my Notion setup, whi
 
 ## What works today
 - Dragging a task card between columns on the Status board updates its status (tested).
+- Planner with all 24 hours, scrolling All Day boxes and an Unscheduled tray that only scrolls up and down; Created Time in Tasks and Completed; project percentages on the Dashboard; "＋ Existing task" on lists; "Open Planner" on Focus; ✕ on the delete notice; numbered lists that start at any number. Tested in the test copy on 2026-11-22, not yet with real data.
 
 ## What still needs work
 - Recurring tasks: Build recurring tasks, then verify that completing one creates its next occurrence on the correct date.
