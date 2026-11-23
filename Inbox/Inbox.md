@@ -9,4 +9,4 @@
 - When Claude files a note, it also updates that folder's index note.
 
 ## Contents
-_Empty._
+- [[Weekly Review 2026-11-22]] — First weekly tidy-up: nothing to fix; one failed backup push and a possibly missed evening wrap-up to check.
