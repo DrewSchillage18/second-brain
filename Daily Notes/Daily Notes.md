@@ -12,3 +12,4 @@ New daily notes start from [[Daily Note]] in [[Templates]].
 
 ## Contents
 - [[2026-11-22]] — Vault set up with folder indexes, Vault Index and CLAUDE.md.
+- [[2026-11-23]] — Evening wrap-up only: Taskflow app files changed; no vault changes.
