@@ -4,4 +4,4 @@
 
 ## Contents
 - [[Taskflow - Current Brief]] — Goal, what works today, what still needs work, next milestone.
-- [[Taskflow - Decision Log]] — Dated decisions, starting with automatic backups built into the server (2026-11-17).
+- [[Taskflow - Decision Log]] — Dated decisions: automatic backups built into the server (2026-11-17); Motion setting, project colour from the icon, and frozen release copies (2026-11-25).
